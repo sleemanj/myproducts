@@ -52,7 +52,7 @@
     {
         
     	$('.last.itemsPerPage')[0].setAttribute('data-page-size', SwapHighestItemsPerPageTo);
-    	$('.last.itemsPerPage')[0].innerText = SwapHighestItemsPerPageTo;
+    	$($('.last.itemsPerPage')[0]).text( SwapHighestItemsPerPageTo );
         
         var rows = $('.myproducts .widgets-grid table .name-product');
         for(var x = 0; x < rows.length; x++)
