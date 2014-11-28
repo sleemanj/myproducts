@@ -3,7 +3,7 @@
 // @namespace    http://github.com/sleemanj/myproducts
 // @updateURL    https://github.com/sleemanj/myproducts/raw/master/myproducts.user.js
 // @downloadURL  https://github.com/sleemanj/myproducts/raw/master/myproducts.user.js
-// @version      0.1
+// @version      0.2
 // @description  Some enhancements for the new My Products interface
 // @author       James Sleeman
 // @match        https://sell.trademe.co.nz/*/Product/List/TradeMe
