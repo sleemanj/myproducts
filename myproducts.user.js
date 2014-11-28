@@ -3,7 +3,7 @@
 // @namespace    http://github.com/sleemanj/myproducts
 // @updateURL    https://github.com/sleemanj/myproducts/raw/master/myproducts.user.js
 // @downloadURL  https://github.com/sleemanj/myproducts/raw/master/myproducts.user.js
-// @version      0.3
+// @version      0.4
 // @description  Some enhancements for the new My Products interface
 // @author       James Sleeman
 // @match        https://sell.trademe.co.nz/*/Product/List/TradeMe
@@ -48,6 +48,10 @@
     
     addGlobalStyle(css);
     
+    if(!$($('.myproducts .widgets-grid .header .current-sorting')[0]).text().length)
+    {
+      $($('.myproducts .widgets-grid .header .current-sorting')[0]).text('SKU');
+    }
     
     function periodic()
     {
