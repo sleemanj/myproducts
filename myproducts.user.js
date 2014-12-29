@@ -3,7 +3,7 @@
 // @namespace    http://github.com/sleemanj/myproducts
 // @updateURL    https://github.com/sleemanj/myproducts/raw/master/myproducts.user.js
 // @downloadURL  https://github.com/sleemanj/myproducts/raw/master/myproducts.user.js
-// @version      0.5
+// @version      0.6
 // @description  Some enhancements for the new My Products interface
 // @author       James Sleeman
 // @match        https://sell.trademe.co.nz/*/Product/List/TradeMe
@@ -22,7 +22,7 @@
     var RefreshPeriod		      = 1.5;   // We need to periodically check and resize some stuff
     									   // how often in seconds to do this.
     
-    var AddFPOLinks				  = true;  // Try to include "View FPO" links in the status cols
+    var AddFPOLinks				  = false;  // Try to include "View FPO" links in the status cols
   // ========= END CONFIGURATION ===============================================================
     
     
